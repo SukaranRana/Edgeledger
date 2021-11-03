@@ -1,0 +1,11 @@
+.l-heading {
+  margin-top: 1rem !important;
+  font-size: 32px !important;
+}
+.showcase-content p {
+  line-height: 1.25rem;
+}
+.showcase-content .what {
+  width: 12.5%;
+  padding: 1rem 0;
+}
