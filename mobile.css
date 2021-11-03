@@ -1,0 +1,61 @@
+#navbar {
+  flex-direction: column;
+  text-align: center;
+}
+#navbar .logo {
+  margin: 0.75rem 0 1rem 0;
+  font-size: 28px;
+}
+#what .items {
+  display: block;
+  padding: 0.5rem;
+}
+
+.items .item {
+  display: flex;
+  text-align: left;
+}
+.items .item i {
+  align-self: center;
+  margin-right: 1.3rem;
+}
+.showcase-content .what {
+  width: 25%;
+}
+#who {
+  display: block;
+  padding: 0;
+}
+.who-text {
+  padding: 1rem 0.5rem;
+  width: 100%;
+}
+#contact {
+  display: block;
+}
+#contact h2 {
+  padding-top: 2rem;
+}
+#map {
+  height: 250px;
+  width: 100%;
+}
+@media (max-height: 568px) {
+  .l-heading {
+    font-size: 40px;
+  }
+  .showcase-content p {
+    line-height: 1rem;
+    margin: 1rem 0;
+  }
+  .showcase-content .what {
+    width: 35%;
+    line-height: 3rem;
+  }
+}
+.hamburger {
+  display: inline;
+}
+.none {
+  display: none !important;
+}

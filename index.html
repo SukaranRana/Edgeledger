@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EdgeLedger</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(max-width:768px) and (min-width:501px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:1201px)"
+      href="css/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-height:500px)"
+      href="css/landscape.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/107826f452.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  </head>
+  <body id="home">
+    <nav id="navbar">
+      <div class="hamburger">
+        <div class="line"></div>
+      </div>
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
+        >Ledger
+      </h1>
+      <ul class="nav-list none">
+        <li class="home">Home</li>
+        <li class="what">What</li>
+        <li class="who">Who</li>
+        <li class="contact">Contact</li>
+      </ul>
+    </nav>
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">The Sky Is The Limit</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          perferendis et temporibus praesentium sunt recusandae?
+        </p>
+        <p class="what">Read More</p>
+      </div>
+    </header>
+    <section id="what">
+      <div class="container">
+        <h1><span class="text-primary">What</span> We Do</h1>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-university"></i>
+            <div>
+              <strong>Investment Banking</strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus, rem.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fas fa-book-reader"></i>
+            <div>
+              <strong>Portfolio Management</strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus, rem.
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fas fa-pencil-alt"></i>
+            <div>
+              <strong>Tax & Custodial</strong>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Temporibus, rem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-text">
+        <h2><span class="text-primary">Who</span> We Are</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+          nesciunt facere tenetur illum aliquam reprehenderit dolorum a omnis
+          numquam natus quia laboriosam soluta autem odio repudiandae ratione
+          sunt quidem obcaecati?
+        </p>
+        <h3><span class="text-primary">Our</span> Team</h3>
+        <ul class="list">
+          <li>Sukaran Rana: CEO</li>
+          <li>Sukaran Rana: CFO</li>
+          <li>Sukaran Rana: Lead Accountant</li>
+          <li>Sukaran Rana: Investment Manager</li>
+          <li>Sukaran Rana: Senior Accountant</li>
+        </ul>
+      </div>
+    </section>
+    <section id="clients">
+      <h2><span class="text-primary">Our</span> Clients</h2>
+      <div class="logos">
+        <div>
+          <img src="https://source.unsplash.com/1600x900/?planet" alt="" />
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/1600x900/?sun" alt="" />
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/1600x900/?moon" alt="" />
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/1600x900/?saturn" alt="" />
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/1600x900/?jupiter" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-form">
+        <h2>Contact Form</h2>
+        <p>Please fill the form to contact us.</p>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter Name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Enter Email" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" placeholder="Enter Phone" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            type="text"
+            name="message"
+            placeholder="Enter Message"
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </div>
+      <div id="map"></div>
+    </section>
+    <footer>
+      <p>Copyright &copy; 2021, EdgeLedger, All Rights Reserved</p>
+    </footer>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
